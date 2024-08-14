@@ -1,5 +1,5 @@
 document.getElementById('regBtn').addEventListener('click', function() {
-    /*
+    
     var nombre = document.getElementById('nombre').value.trim();
     var apellido = document.getElementById('apellido').value.trim();
     var email = document.getElementById('email').value.trim();
@@ -27,8 +27,8 @@ document.getElementById('regBtn').addEventListener('click', function() {
         return;
     }
 
-    showAlertSuccess();*/
-    showAlertError();
+    showAlertSuccess();
+
 });
 
 function showAlertSuccess() {
